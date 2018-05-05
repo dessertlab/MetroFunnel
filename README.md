@@ -77,20 +77,20 @@ To exectute Metrofunnel:
 
 ## User and Operating Manual
 MetroFunnel displays all the available interfaces, and then requests the number of interfaces (which can be physical or virtual) that you want to monitor.
-![alt text](/images/Manual 1.png "MetroFunnel Manual 1")
+![alt text](/images/Manual1.png "MetroFunnel Manual 1")
 
 Next, the list of interfaces is shown again and MetroFunnel asks for the reference ID of the interface to be monitored; you must enter the ID of the network interface on which the microservices packets pass.
-![alt text](/images/Manual 2.png "MetroFunnel Manual 2")
+![alt text](/images/Manual2.png "MetroFunnel Manual 2")
 
 After entering the interface ID, the correct creation of the log file is shown, with its name, and then asks if you want to enter the TCP port number to filter the data; this check is made to each packet that transits and records the requests and the responses of the packets that have that TCP port number, whether it is as a source or as a destination.
-![alt text](/images/Manual 3.png "MetroFunnel Manual 3")
+![alt text](/images/Manual3.png "MetroFunnel Manual 3")
 
 You can enter multiple values separated by a space or enter any to capture everything without filtering.
-![alt text](/images/Manual 4.png "MetroFunnel Manual 4")
-![alt text](/images/Manual 5.png "MetroFunnel Manual 5")
+![alt text](/images/Manual4.png "MetroFunnel Manual 4")
+![alt text](/images/Manual5.png "MetroFunnel Manual 5")
 
 Finally, it asks for the max time before considering an expired timed request; this value is unique for all requests, regardless of the Method and the reference URL.
 If you chose to monitor multiple interfaces simultaneously, all the previous options are related to the single interface.
 After having inserted everything, the program starts with the monitoring of the packets that transit on the network, showing them on the video when they receive the corresponding response or expire by timeout.
-![alt text](/images/Manual 6.png "MetroFunnel Manual 6")
+![alt text](/images/Manual6.png "MetroFunnel Manual 6")
 
